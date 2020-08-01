@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecificMeterData">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Maxwell"
+            android:id="@+id/toolbar_specifi_meter"
+            app:titleTextColor="@android:color/white"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed"/>
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:background="@drawable/tab_background"
+            app:ms_background_color="@android:color/white"
+            app:ms_arrow_tint="@color/colorPrimary"
+            app:ms_hint_color="@color/colorPrimary"
+            app:ms_hint="Instant Data"
+            app:ms_text_color="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/spinner_container"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

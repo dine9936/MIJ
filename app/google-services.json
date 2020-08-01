@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "531158356527",
+    "firebase_url": "https://flytantkot.firebaseio.com",
+    "project_id": "flytantkot",
+    "storage_bucket": "flytantkot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531158356527:android:03bd7574e5f3293e47acda",
+        "android_client_info": {
+          "package_name": "com.example.flytantkot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfLhQHlizlKEPECc8xYIPHNhaEe87H_9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531158356527:android:d99504ffd9d205c447acda",
+        "android_client_info": {
+          "package_name": "com.example.healthmantra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfLhQHlizlKEPECc8xYIPHNhaEe87H_9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531158356527:android:2d6a3287f4b9266647acda",
+        "android_client_info": {
+          "package_name": "com.example.mijsmartmeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfLhQHlizlKEPECc8xYIPHNhaEe87H_9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531158356527:android:3eac4467930b7b6f47acda",
+        "android_client_info": {
+          "package_name": "tech.fadedib.firebasestorage_multiplefilesupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfLhQHlizlKEPECc8xYIPHNhaEe87H_9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531158356527-a2f9aa6q9kherm0n4o17rhsjtgckoe81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

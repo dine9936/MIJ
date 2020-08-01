@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/close_dailog"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/close_dailog"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/edit_group_name"
+                android:textColor="@color/colorPrimary"
+                android:inputType="textCapWords"
+                android:layout_width="234dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edit_text_back"
+                android:hint="Group Name"
+                android:paddingLeft="10dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_edit_text"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/edit_meter_name"
+                    android:inputType="textCapWords"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edit_text_back"
+                    android:hint="Enter Meter Name"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorPrimary" />
+
+                <EditText
+                    android:id="@+id/edit_serial_number"
+                    android:inputType="textCapCharacters"
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/edit_text_back"
+                    android:hint="Serial Number"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorPrimary" />
+
+               <Spinner
+                   android:id="@+id/spinner"
+                   android:layout_width="match_parent"
+                   android:layout_height="33dp"
+                   android:background="@drawable/tab_background"
+                   />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp">
+
+                <Button
+                    android:id="@+id/button_save"
+                    android:layout_width="144dp"
+                    android:layout_height="33dp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/back_button_save"
+                    android:text="save"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/added_meter_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="10dp"
+                android:scrollbars="horizontal"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

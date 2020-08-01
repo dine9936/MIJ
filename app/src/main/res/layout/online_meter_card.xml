@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:id="@+id/ll_online_mtr_card"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="164dp"
+    android:background="@drawable/bg_meter_card">
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/online_frag_card_small_meter1"
+            android:layout_gravity="bottom"
+            android:src="@drawable/smallmeter"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/online_frag_card_large_meter"
+            android:layout_gravity="bottom"
+            android:src="@drawable/largemeter"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/online_frag_card_small_meter2"
+            android:layout_gravity="bottom"
+            android:src="@drawable/smallmeter"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/online_frag_card_text_group"
+            android:textColor="#4F4F4F"
+            android:layout_centerInParent="true"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"/>
+    </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

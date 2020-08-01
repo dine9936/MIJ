@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_edit_text"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_edit_text"
+        android:hint="Enter Meter Name"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_edit_text"
+        android:hint="Serial Number"
+        android:paddingLeft="10dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Spinner
+        android:paddingLeft="10dp"
+        android:layout_width="324dp"
+        android:layout_height="33dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_edit_text" />
+
+
+</LinearLayout>
